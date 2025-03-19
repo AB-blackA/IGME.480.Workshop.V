@@ -41,8 +41,10 @@
         let audioElement = document.querySelector('#myAudio');
         if (audioElement.paused) {
           audioElement.play();
+          console.log('playAudio');
         } else {
           audioElement.pause();
+          console.log('pauseAudio');
         }
       });
 
